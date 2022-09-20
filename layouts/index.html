@@ -13,13 +13,14 @@
 <meta property="og:description" content="">
 <meta property="og:image" content="">
 <meta property="og:site_name" content="">
-<link rel="shortcut icon" href="./assets/favicon.png">
+
+<link rel="shortcut icon" type="image/x-icon" href="./assets/favicon.ico">
 <link rel="apple-touch-icon" href="./assets/app-ico.png">
 <link rel='stylesheet' id='font-awesome-css'  href='./assets/css/font-awesome.min.css?ver=4.7.0' type='text/css' media='all' />
 <link rel='stylesheet' id='bootstrap-css'  href='./assets/css/bootstrap.css?ver=3.4.1' type='text/css' media='all' />
 <link rel='stylesheet' id='nav-css'  href='./assets/css/nav.css?ver=2.0.0' type='text/css' media='all' />
 <script type='text/javascript' src='./assets/js/jquery-1.11.1.min.js'></script>
-<script src="https://unpkg.com/lunr/lunr.js"></script>
+<!-- <script src="https://unpkg.com/lunr/lunr.js"></script> -->
 
 <script>
     var _hmt = _hmt || [];
@@ -194,6 +195,11 @@
                         <i class="fa fa-angle-up"></i>
                     </a>
                 </div>
+                <div class="theme-switch">
+                    <a href="#" rel="go-tops">
+                        <i class="fa fa-lightbulb-o"></i>
+                    </a>
+                </div>
                 <div class="footer-inner">
                     <div class="footer-text">
                         Copyright © {{ now.Format "2006"}} <a href=""><strong>{{ if .Site.Copyright }}{{ .Site.Copyright | safeHTML }}{{ else }}iplaycode{{ end }}</strong></a>&nbsp;&nbsp;Design by <a href="http://viggoz.com" target="_blank"><strong>Viggo</strong></a>&nbsp;&nbsp;Themes by <a href="https://github.com/iplaycode" target="_blank"><strong>iplaycode</strong></a>
@@ -271,7 +277,7 @@
 <script type='text/javascript' src='./assets/js/perfect-scrollbar.min.js?ver=0.5.8'></script>
 <script type='text/javascript' src='./assets/js/nav.js?ver=2.0.0'></script>
 <script type='text/javascript' src='./assets/js/lazyload.min.js?ver=2.0.0'></script>
-<script type='text/javascript' src='./assets/js/insite-search.js'></script>
+<!-- <script type='text/javascript' src='./assets/js/insite-search.js'></script> -->
 
 </body>
 </html>
